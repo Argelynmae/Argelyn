@@ -3,117 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argelyn L.Emoa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Argelyn L. Emo</title>
+    <link href="" rel="stylesheet">
     <style>
-      body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
-    display: flex_center;
-    justify-content: front;
-    align-items: front;
-    min-height: 100vh;
-}
-
-.resume {
-    display: flex;
-    width: 100%;
-    max-width: 900px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-    overflow: hidden;
-    padding: 20px;
-}
-
-.sidebar {
-    background-color: #4A6572; 
-    color: pink;
-    width: 250px;
-    padding: 20px;
-}
-
-.sidebar h1 {
-    color: white;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.main {
-    flex-grow: 1;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 30px;
-    border-left: 6px solid #66CDAA; 
-    padding-left: 15px;
-}
-
-section h2 {
-    color: #66CDAA;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #FFCBA4, #A68BFA);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding: 20px;
+        }
+        
+        .resume {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(166, 139, 250, 0.5);
+            overflow: hidden;
+        }
+        
+        .sidebar {
+            background: rgba(255, 203, 164, 0.9);
+            color: white;
+            padding: 30px;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            flex: 1;
+        }
+        .sidebar img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid #A68BFA;
+            margin-bottom: 10px;
+        }
+        .sidebar h1 {
+            font-size: 28px;
+            font-family: 'Sacramento', cursive;
+            color: #A68BFA;
+        }
+        .sidebar p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        .main {
+            flex: 2;
+            padding: 30px;
+            width: 100%;
+            min-width: 400px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2)
+            border-radius: 12px;
+            border-left: 6px solid #FFCBA
+            transition: 0.3s;
+        }
+        .section h2 {
+            color: blue;
+            border-bottom: 2px solid #FFCBA;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 6px 0;
+            font-size: 16px;
+        }
+    
+        @media (max-width: 768px) {
+            .resume {
+                flex-direction: column;
+                align-items: center;
+            }
+            .sidebar {
+                width: 100%;
+                max-width: none;
+                text-align: center;
+            }
+            .main {
+                width: 100%;
+                min-width: unset;
+            }
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #A68BFA;
+            margin-top: 20px;
+            padding-bottom: 15px;
+        }
+        .section:nth-child(5) {
+            border-left: 6px solid #FFCBA4;
+        }
+        .section:nth-child(5) h2{
+            color: #FFCBA4;
+            border-bottom: 2px solid #FFCBA4;
+        }
+        .section:nth-child(5) ul li {
+            color: #FFCBA4;
+        }
     </style>
 </head>
 <body>
-
     <div class="resume">
         
         <div class="sidebar">
             <img src="photos.jpg" alt="Profile Picture">
-            <h1>Argelyn Mae L. Emo</h1></h1>
-            <p>Purok,Mauswagon, Sto Nino, Tukuran, Zamboanga Del Sur</p>
+            <h1>Argelyn L. Emo</h1>
+            <p>Purok Mauswagon, Sto. Nino Tukuran, Zamboanga Del Sur</p>
             <p>📞 09092924005</p>
-            <p>📧 <strong>Email:</strong>  argelynmaeemo28@gmail.com /p>
-            <p>📍 <strong>Location:</strong> Sto, Nino, Tukuran</p>
+            <p>📧 <strong>Email:</strong> argelynmaeemo28@gmail.com</p>
+            <p>📍 <strong>Location:</strong> Sto,. Nino, Tukuran</p>
         </div>
-
-    
+        
         <div class="main">
             <div class="section">
                 <h2>Career Objective</h2>
                 <p>To utilize my knowledge and passion for education, inspiring students and enhancing my teaching skills.</p>
             </div>
-
             <div class="section">
                 <h2>Educational Background</h2>
                 <ul>
-                    <li>📖 <strong>Elementary:</strong> Sto. Nino Central Elementary school</li>
-                    <li>📘 <strong>Secondary:</strong> TTVHS</li>
+                    <li>📖 <strong>Elementary:</strong> Sto. Nino Central Elementary School</li>
+                    <li>📘 <strong>Secondary:</strong> Tukuran, Technical, Vocational High School</li>
                     <li>🎓 <strong>Tertiary:</strong> Zamboanga Del Sur Provincial Government College - Tukuran Campus</li>
                 </ul>
             </div>
-
             <div class="section">
                 <h2>Skills</h2>
                 <ul>
                     <li>💻 Computer Literacy</li>
-                    <li>😪 Sleeping</li>
+                    <li>😇 Sleeping</li>
                     <li>📸 Photography</li>
                     <li>🎨 Designer</li>
                 </ul>
             </div>
-
             <div class="section">
                 <h2>Reference</h2>
-                <p><strong>Nancy Emo</strong></p>
-                <p>📍 Sto, Nino Tukuran</p>
-                <p>📞 09092924005</p>
+                <p><strong>CASPE JOVANI</strong></p>
+                <p>📍 MILITAR, Tukuran</p>
+                <p>📞 09949767086</p>
             </div>
-
-            <div clas
+            
+            <div class="footer">
+                &copy; 2023 Argelyn L. Emo
+            </div>
+        </div>
+    </div>
+</body>
+                </html>
